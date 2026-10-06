@@ -1,0 +1,8 @@
+/* ƒополнительные точечные стили, если требуютс€ */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.nav-wrapper {
+    background: rgba(255, 255, 255, 0.08);
+}
