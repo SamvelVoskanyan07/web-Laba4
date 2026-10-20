@@ -1,8 +1,29 @@
-/* �������������� �������� �����, ���� ��������� */
-body {
-    font-family: Arial, sans-serif;
+/* Фирменный болотный цвет из ЛР 2 и ЛР 3 */
+header, footer {
+    background-color: #4b5320 !important;
 }
 
-.nav-wrapper {
-    background: rgba(255, 255, 255, 0.08);
+h1, h2 {
+    color: #4b5320 !important;
+}
+
+/* Кастомная кнопка под цвет темы */
+.custom-btn {
+    background-color: #4b5320 !important;
+    border-color: #4b5320 !important;
+}
+
+.custom-btn:hover {
+    background-color: #5c6628 !important;
+    border-color: #5c6628 !important;
+}
+
+/* Ограничение ширины формы для аккуратности */
+.max-w-600 {
+    max-width: 600px;
+}
+
+/* Эффект подчёркивания ссылок в шапке при наведении */
+header nav a:hover {
+    text-decoration: underline !important;
 }
